@@ -1,0 +1,39 @@
+body {
+    margin:0px;
+    text-align: justify;
+    width:100%;
+    padding-left:4%;
+    padding-right:4%;
+    line-height: 1.5;
+    box-sizing:border-box;
+    font-size: 20px;
+}
+
+figure {
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+figcaption {
+    text-align: left;
+    font-size: 14px;
+    color: #9b9b9b;
+}
+
+img {
+    width: 108%;
+    background: #d8d8d8;
+    margin-left: -4%;
+}
+
+input {
+    display:none;
+}
+
+.replace {
+    height:18px;
+}
+
+iframe {
+    width: 100%;
+}

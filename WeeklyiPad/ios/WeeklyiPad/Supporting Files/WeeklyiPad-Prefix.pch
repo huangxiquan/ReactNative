@@ -1,0 +1,28 @@
+//
+//  Weekly-Prefix.pch
+//  Weekly
+//
+//  Created by Neo on 2017/8/17.
+//  Copyright © 2017年 CBN. All rights reserved.
+//
+
+#ifndef WeeklyiPad_Prefix_pch
+#define WeeklyiPad_Prefix_pch
+
+#import "WeeklyiPad-Swift.h"
+#import <Foundation/Foundation.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* WeeklyiPad_Prefix_pch */
+
+#ifdef DEBUG
+
+#define debugLog(...) NSLog(__VA_ARGS__)
+#define debugMethod() NSLog(@"%s", __func__)
+#else
+#define debugLog(...)
+#define debugMethod() file.
+
+#endif

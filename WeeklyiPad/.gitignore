@@ -1,0 +1,15 @@
+
+/**/.gradle
+build/
+/**/build
+/**/xcuserdata
+/iOSInjectionProject/
+### OSX ###
+*.DS_Store
+*.idea
+/**/node_modules
+Weekly.xcodeproj/
+Weekly.xcworkspace/
+node_modules/
+.deco/
+npm-debug.log
